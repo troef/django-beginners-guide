@@ -1,6 +1,6 @@
 from django.db.models import Count
 from django.contrib.auth.decorators import login_required
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.conf import settings
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.generic import UpdateView, ListView
